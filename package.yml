@@ -27,17 +27,17 @@ page:
         settings:
             title: translate:redactor_settings
             icon: rex-icon fa-gear
-            itemclass: pull-right
+            itemClass: pull-right
             perm: admin
         docs:
             title: translate:redactor_docs
             subPath: README.md
             icon: rex-icon fa-info-circle
-            itemclass: pull-right
+            itemClass: pull-right
             perm: redactor[docs]
         clear_cache:
             title: 'translate:clear_cache'
-            itemclass: 'pull-right'
+            itemClass: 'pull-right'
             linkClass: 'btn btn-delete'
             href:
                 page: redactor/profile
